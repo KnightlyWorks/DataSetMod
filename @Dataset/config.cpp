@@ -13,12 +13,12 @@ class CfgMods
 {
     class DatasetBot
     {
-        dir = "@DatasetBot";
+        dir = "@Dataset";
         picture = "";
         action = "";
         hideName = 1;
         hidePicture = 1;
-        name = "DatasetBot";
+        name = "Dataset";
         credits = "";
         author = "";
         authorID = "";
@@ -33,7 +33,7 @@ class CfgMods
             class missionScriptModule
             {
                 value = "";
-                files[] = {"@DatasetBot/scripts/5_mission"};
+                files[] = {"@Dataset/scripts/5_mission"};
             };
         };
     };
